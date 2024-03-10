@@ -14,7 +14,6 @@ public class Lose : MonoBehaviour
 
     public void Death()
     {
-        Debug.Log("Damaged");
         lives -= 1;
 
         if (lives < 1)

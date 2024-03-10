@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -93,19 +92,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void Checkpoint()
     {
-        Debug.Log("Checkpoint Saved");
-
         respawnPoint = transform.position;
-        Debug.Log(respawnPoint);
-    }
-
-    public void Respawn()
-    {
-        
-        //Debug.Log("Respawning...");
-        //disabled = true;
-        //playerRb.position = respawnPoint;
-        //Debug.Log(transform.position);
-        //disabled = false;
     }
 }
