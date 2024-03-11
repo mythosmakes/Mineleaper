@@ -12,7 +12,7 @@ public class Finish : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D col)
-    {
+    { 
         winScreen.SetActive(true);
     }
 }

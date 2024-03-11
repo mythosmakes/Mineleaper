@@ -75,6 +75,11 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         #endregion
+
+        if (Input.GetKeyDown("escape"))
+        {
+            Application.Quit();
+        }
     }
 
     void FixedUpdate()

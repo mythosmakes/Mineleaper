@@ -5395,7 +5395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8305745344943885981, guid: 1fdfff1cb1ab66e4db412757a5ec97a6, type: 3}
       propertyPath: m_EdgeRadius
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9138,10 +9138,6 @@ PrefabInstance:
     - target: {fileID: 3592436408180327402, guid: 1fdfff1cb1ab66e4db412757a5ec97a6, type: 3}
       propertyPath: m_Name
       value: Tile (33)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8305745344943885981, guid: 1fdfff1cb1ab66e4db412757a5ec97a6, type: 3}
-      propertyPath: m_EdgeRadius
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
